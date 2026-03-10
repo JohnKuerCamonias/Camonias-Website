@@ -13,32 +13,15 @@
 <body>
 <header>
  <!-- Navigation Bar -->
-<nav id="navbar">
-    <a href="#home">Home</a>
-    <a href="#about">About</a>
-    <a href="#projects">Projects</a>
-    <a href="#contact">Contact</a>
-</nav>
-<!--Mobile Navigation Bar-->
-<div class="off-screen-menu">
+<div class="main-nav">
     <ul>
-        <li><a href="home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li class="menu-item"><a href="home">Home</a></li>
+        <li class="menu-item"><a href="#about">About</a></li>
+        <li class="menu-item"><a href="#projects">Projects</a></li>
+        <li class="menu-item"><a href="#contact">Contact</a></li>
     </ul>
 </div>
-
-<nav>
-    <div class="ham-menu">
-        <span></span>
-        <span></span>
-        <span></span>
-    </div>
-</nav>
-
 </header>
-
 <!-- Page Sections -->
 
 <!-- Home Page -->
@@ -49,10 +32,12 @@
             <h2>JOHN KUER CAMONIAS</h2>
             <h4>Aspiring</h4>
         </div>
+<!-- Call to action -->
         <div class="ctasection">
             <button class="projects"><a href="#projects">PROJECTS</a><img src="/img/arrow-up-right-icon.svg" alr="arrow-up-right-icon"></button>
             <button class="projects"><a href="#contact">CONTACT ME</a> <img src="/img/envelope.svg"alt="envelope"></button>
         </div>
+<!-- Account links -->
         <div class="links">
             <a><img src="/img/github.svg" alt="github"></a>
             <a><img src="/img/linkedin.svg" alt="linkedin"></a>
@@ -133,15 +118,14 @@
                 <img src="/img/priceofeverytomorrow.png">
             </div>
             <div class="project-descriptions">
-                <h3>Price Of Every Tomorrow</h3>
-                <p>An interactive web-based game exploring real-life social issues through meaningful choices and storytelling. Focuses on hunger, inequality, and survival.</p>
+                <h3>Title</h3>
+                <p>Description</p>
             </div>
             <div class="tags">
                 <h4>HTML</h4>
                 <h4>CSS</h4>
-                <h4>JavaScript</h4>
             </div>
-            <button class="view-project-btn"><a href="https://priceofeverytomorrow.online/index.html" target="_blank" rel="noopener noreferrer">View Project</a></button>
+            <button class="view-project-btn"><a href="/" target="_blank" rel="noopener noreferrer">View Project</a></button>
         </div>
 <!-- Project 3 -->    
         <div class="individual-projects">
@@ -149,15 +133,14 @@
                 <img src="/img/priceofeverytomorrow.png">
             </div>
             <div class="project-descriptions">
-                <h3>Price Of Every Tomorrow</h3>
-                <p>An interactive web-based game exploring real-life social issues through meaningful choices and storytelling. Focuses on hunger, inequality, and survival.</p>
+                <h3>Title</h3>
+                <p>Description</p>
             </div>
             <div class="tags">
                 <h4>HTML</h4>
                 <h4>CSS</h4>
-                <h4>JavaScript</h4>
             </div>
-            <button class="view-project-btn"><a href="https://priceofeverytomorrow.online/index.html" target="_blank" rel="noopener noreferrer">View Project</a></button>
+            <button class="view-project-btn"><a href="/" target="_blank" rel="noopener noreferrer">View Project</a></button>
         </div>
 
     </div>
@@ -165,17 +148,32 @@
 
 <!-- Contact Page -->
 <div id="contact">
-    <h1>GET IN TOUCH</h1>
-</div>
- 
 
-   <form action="https://api.web3forms.com/submit" method="POST">
-  <input type="hidden" name="access_key" value="57bf4625-7a55-4a52-b7b4-799865a36fdd">
-  <input type="text" name="name" placeholder="Your Name" required>
-  <input type="email" name="email" placeholder="Your Email" required>
-  <textarea name="message" placeholder="Your Message" required></textarea>
-  <button class="button-type2" type="submit">Submit</button>
-</form>
+    <h1>GET IN TOUCH</h1>
+
+<!-- Contact Accounts-->
+    <div class="contact-account">
+        <h3>FOLLOW ME ON</h3>
+        <div class="individual-link-container">
+            <a href="https://www.facebook.com/johnkuer.camonias"><img src="/img/facebook.svg" alt="facebook" target="_blank" rel="noopener noreferrer"> <h4>Facebook</h4></a>
+        </div>
+         <div class="individual-link-container">
+            <a href="https://www.instagram.com/camoniasjohnkuer/"><img src="/img/instagram.svg" alt="instagram" target="_blank" rel="noopener noreferrer"> <h4>Instagram</h4></a>
+        </div>
+         <div class="individual-link-container">
+            <a href="https://www.tiktok.com/@riceecooked"><img src="/img/tiktok.svg" alt="tiktok" target="_blank" rel="noopener noreferrer"> <h4>TikTok</h4></a>
+        </div>
+    </div>
+
+<!-- Google Form -->
+    <form action="https://api.web3forms.com/submit" method="POST">
+    <input type="hidden" name="access_key" value="57bf4625-7a55-4a52-b7b4-799865a36fdd">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" placeholder="Your Message" required></textarea>
+    <button class="button-type2" type="submit">Submit</button>
+    </form>
+</div>
 
 </body>
 </html>
