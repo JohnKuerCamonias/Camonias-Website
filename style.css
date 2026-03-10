@@ -1,4 +1,8 @@
 /*Body*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+html {
+  scroll-behavior: smooth;
+}
 body{
     background-color: black;
     font-family: Arial, sans-serif;
@@ -19,17 +23,61 @@ header{
     width: 100%
 }
 /*Nav Bar*/
-.main-nav {
+nav {
     display: flex;
     position: fixed;
     justify-content: center;
-     padding: 10px 0;
-     gap: 20px;
-     background-color: #2e2e30;
+    height: 60px;
+    left: 0;
+    right: 0;
 }
-.menu-item a{
+nav ul {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-color: #2e2e30;
+    border: 2px solid #2e2e30;
+    border-radius: 50px;
+}
+nav li {
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    padding: 15px 20px 15px 20px;
     text-align: center;
+    font-family: "Poppins", sans-serif;
+    color: lightgrey;
 }
+nav a {
+    color: lightgrey;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 15px;
+    padding: 0 3px;
+    letter-spacing: 0.4;
+    transition: .3s;
+}
+nav  a::after {
+    content: "";
+    position: absolute;
+    background-color: #c51d34;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -5px;
+    transition: 0.3s;
+}
+
+nav a:hover::after {
+    width: 100%;
+}
+nav a:hover,
+nav a.active {
+    color:#c51d34;
+}
+
 
 
 
