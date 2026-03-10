@@ -1,3 +1,39 @@
+/*Body*/
+body{
+    background-color: black;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;  
+}
+a {
+    text-decoration: none;
+}
+ul  {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; 
+}
+header{
+    display: flex;
+    width: 100%
+}
+/*Nav Bar*/
+.main-nav {
+    display: flex;
+    position: fixed;
+    justify-content: center;
+     padding: 10px 0;
+     gap: 20px;
+     background-color: #2e2e30;
+}
+.menu-item a{
+    text-align: center;
+}
+
+
+
+
 
 .form-container { max-width: 400px; margin: auto; padding: 20px; }
 input, textarea { width: 100%; padding: 10px; margin-top: 5px; }
