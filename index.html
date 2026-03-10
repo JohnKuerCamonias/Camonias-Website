@@ -6,14 +6,55 @@
     <title>Camonias Website</title>
 
     <!--links-->
-    <link ref="stylesheet" href="style.css">
-    <link ref="script" href="script.js">
+    <link rel="stylesheet" href="style.css">
+    <link rel="script" href="script.js">
 
 </head>
 <body>
+<header>
+ <!-- Navigation Bar -->
+<nav id="navbar">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+</nav>
+<!--Mobile Navigation Bar-->
+<div class="off-screen-menu">
+    <ul>
+        <li><a href="home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</div>
 
-    <h1>Hello, World!</h1>
-    <p>This is my first paragraph.</p>
+<nav>
+    <div class="ham-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</nav>
+
+</header>
+
+<!-- Page Sections -->
+<div id="home">
+    <h1></h1>
+</div>
+
+<div id="about">
+    <h1>ABOUT</h1>
+</div>
+
+<div id="projects">
+    <h1>PROJECTS</h1>
+</div>
+<div id="contact">
+    <h1>GET IN TOUCH</h1>
+</div>
+
 
    <form action="https://api.web3forms.com/submit" method="POST">
   <input type="hidden" name="access_key" value="57bf4625-7a55-4a52-b7b4-799865a36fdd">

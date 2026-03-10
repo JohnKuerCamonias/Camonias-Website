@@ -1,3 +1,5 @@
+
+// Form Submit
 document.getElementById("contactForm").addEventListener("submit", function(e) {
     e.preventDefault();
     // Send form data to API endpoint
