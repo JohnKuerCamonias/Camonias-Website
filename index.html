@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Camonias Website</title>
-
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <!--links-->
     <link rel="stylesheet" href="style.css">
     <link rel="script" href="script.js">
@@ -13,19 +16,20 @@
 <body>
 <header>
  <!-- Navigation Bar -->
-<div class="main-nav">
+<nav class="main-nav">
     <ul>
-        <li class="menu-item"><a href="home">Home</a></li>
+        <li class="menu-item"><a href="#home">Home</a></li>
         <li class="menu-item"><a href="#about">About</a></li>
         <li class="menu-item"><a href="#projects">Projects</a></li>
         <li class="menu-item"><a href="#contact">Contact</a></li>
     </ul>
-</div>
+</nav>
 </header>
 <!-- Page Sections -->
 
 <!-- Home Page -->
 <section id="home" class="content">
+<div class="homepage">
     <div class="introduction">
         <div class="text-section">
             <h3>Hi, I am</h3>
@@ -34,21 +38,22 @@
         </div>
 <!-- Call to action -->
         <div class="ctasection">
-            <button class="projects"><a href="#projects">PROJECTS</a><img src="/img/arrow-up-right-icon.svg" alr="arrow-up-right-icon"></button>
-            <button class="projects"><a href="#contact">CONTACT ME</a> <img src="/img/envelope.svg"alt="envelope"></button>
+            <a href="#projects" class="button-type1">PROJECTS<img src="/img/arrow-up-right-icon.svg" class="button-icon" alr="arrow-up-right-icon"></a>
+
+           <a href="#contact" class="button-type2">CONTACT ME<img src="/img/envelope.svg" class="button-icon" alt="envelope"></a>
         </div>
 <!-- Account links -->
         <div class="links">
-            <a><img src="/img/github.svg" alt="github"></a>
-            <a><img src="/img/linkedin.svg" alt="linkedin"></a>
-            <a><img src="/img/instagram.svg" alt="instagram"></a>
+            <a><img src="/img/github.svg" alt="github" class="account-link-icon"></a>
+            <a><img src="/img/linkedin.svg" alt="linkedin" class="account-link-icon"></a>
+            <a><img src="/img/instagram.svg" alt="instagram" class="account-link-icon"></a>
         </div>
     </div>
-    <div class="pic-image1">
-        <img src="/img/pic1.png" alt="pic1">
+    <div class="pic-image">
+        <img src="/img/pic1.png" alt="pic1" class="pic-image1">
+    </div>
     </div>
 </section>
-
 <!-- About Page -->
 <section id="about" class="content">
     <h1>ABOUT</h1>
@@ -110,7 +115,7 @@
                 <h4>CSS</h4>
                 <h4>JavaScript</h4>
             </div>
-            <button class="view-project-btn"><a href="https://priceofeverytomorrow.online/index.html" target="_blank" rel="noopener noreferrer">View Project</a></button>
+            <a href="https://priceofeverytomorrow.online/index.html" class="button-type2" target="_blank" rel="noopener noreferrer">View Project</a>
         </div>
 <!-- Project 2 -->    
         <div class="individual-projects">
@@ -125,7 +130,7 @@
                 <h4>HTML</h4>
                 <h4>CSS</h4>
             </div>
-            <button class="view-project-btn"><a href="/" target="_blank" rel="noopener noreferrer">View Project</a></button>
+            <a href="/" class="button-type2" target="_blank" rel="noopener noreferrer">View Project</a>
         </div>
 <!-- Project 3 -->    
         <div class="individual-projects">
@@ -140,7 +145,7 @@
                 <h4>HTML</h4>
                 <h4>CSS</h4>
             </div>
-            <button class="view-project-btn"><a href="/" target="_blank" rel="noopener noreferrer">View Project</a></button>
+            <a href="/" class="button-type2" target="_blank" rel="noopener noreferrer">View Project</a>
         </div>
 
     </div>
