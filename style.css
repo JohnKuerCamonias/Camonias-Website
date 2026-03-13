@@ -229,7 +229,7 @@ nav a.active {
     width: 500px;
     display: flex;
     border: solid rgba(0, 0, 0, 0.0);
-    border-radius: 5%;
+    border-radius: 40px;
 }
 
 /*About Page*/
@@ -245,7 +245,7 @@ nav a.active {
     display: flex;
     background-color: rgba(46, 46, 48, 0,25);
     border: solid rgba(128,128,128, 0.25);
-    border-radius: 50px;
+    border-radius: 30px;
     width: 1000px;
     height: auto;
 }
@@ -280,7 +280,7 @@ nav a.active {
     width: auto;
     height: 300px;
     border: solid rgba(0, 0, 0, 0.0);
-    border-radius: 20%;
+    border-radius: 30px;
 }
 /* Skills Section*/
 .what-i-do {
@@ -329,6 +329,61 @@ nav a.active {
 }
 
 /*Project Section*/
+.projects {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.individual-projects {
+    display: flex;
+    background-color: rgba(46, 46, 48, 0,25);
+    border: solid rgba(128,128,128, 0.25);
+    border-radius: 30px;
+    width: 300px;
+    height: auto;
+    flex-direction: column;
+    overflow: hidden;
+}
+.individual-projects img {
+    display: flex;
+    width: 300px;
+    height: auto;
+    flex-direction: column;
+}
+.project-descriptions {
+    padding: 20px;
+}
+.project-descriptions  h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.project-descriptions  p {
+    font-size: 14px; 
+    text-align: justify;
+}
+.tags {
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    padding:10px;
+}
+.tags h4 {
+    background-color: #c51d34;
+    border-color: 1px solid #c51d34;
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 3px 8px 3px 8px;
+    margin: 5px 0 5px 5px;
+    box-sizing: border-box;
+}
+.individual-projects .button-type2 {
+    width: 100px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 15px;
+    margin: 0 0 10px 10px;
+}
+
+
 
 
 
