@@ -9,11 +9,12 @@ body{
     margin: 0;
     padding: 0;  
 }
-.website-margin{
-    margin:100px
-}
 .content {
-    padding-top: 25px;    
+    padding-top: 25px; 
+    display: flex;   
+    justify-content: center;
+    align-items: center;
+    height: auto;
 }
 /*General Type*/
 p {
@@ -30,10 +31,9 @@ h1{
     font-weight: 800;
     font-style: normal;
     letter-spacing: 5px;
-     margin-bottom: 4px;
 }
 h3 {
-    font-size: 20px;
+    font-size: 30px;
     color: #f5f5f5;
     font-family: "Poppins", sans-serif;
     font-weight: 700;
@@ -41,15 +41,16 @@ h3 {
     margin: 0;
 }
 h2 {
-  font-size: 52px;
+  font-size: 55px;
   font-family: "Poppins", sans-serif;
   font-weight: 800;
   font-style: normal;
   color: #c51d34;
   margin: 0;
+  text-align: center;
 }
 h4 {
-    font-size: 25px;
+    font-size: 28px;
     color: #f5f5f5;
     font-family: "Poppins", sans-serif;
     font-weight: 700;
@@ -163,18 +164,20 @@ nav a.active {
     margin-top: 100px;
 }
 /*Home Page*/ 
-.homepage{
+.homesection{
+    margin: 0px 50px 0px 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     height: auto;
-    width: 80vw;
+    gap: 100px;
+    width: 1250px;
     flex-direction: row;
 }
 .introduction {
     display: flex;
     height: auto;
-    width: 65vw;
+    width: auto;
     flex-direction: column;
 }
 .text-section h4::after {
@@ -216,28 +219,77 @@ nav a.active {
 }
 .pic-image{
     display: flex;
+    align-items: center;
 }
 .pic-image1 {
-    width: 35vw;
     height: auto;
-    justify-content: center;
-    align-items: center;
+    width: 500px;
     display: flex;
+    border: solid rgba(0, 0, 0, 0.0);
+    border-radius: 5%;
 }
 
 /*About Page*/
-.aboutme {
-    background-color: #2e2e30;
-    border: solid #808080;
-    border-radius: 50px;
+.aboutsection{
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 1300px;
+}
+.about-container {
+    display: flex;
+    background-color: rgba(46, 46, 48, 0,25);
+    border: solid rgba(128,128,128, 0.25);
+    border-radius: 50px;
+    width: 1000px;
+    height: auto;
+}
+.aboutme {
     flex-direction: row;
     overflow: hidden;
+    width: 1000px;
+    flex-direction: row;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 80px;
+    margin-bottom: 50px;
+}
+.about-text-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 600px;
+}
+.about-text-section h3 {
+    font-size: 20px;
+    text-align: justify;
+    line-height: 2;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
 }
 .pic-image2 {
-    width: 20vw;
-    display: flex;
+    width: auto;
+    height: 300px;
+    border: solid rgba(0, 0, 0, 0.0);
+    border-radius: 25%;
 }
+.what-i-do {
+    flex-direction: row;
+}
+.what-i-do h2 {
+    color: #f5f5f5;
+    text-align: center;
+}
+displ
+
+
+
 
 
 
