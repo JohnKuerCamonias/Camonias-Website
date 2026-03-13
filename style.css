@@ -9,11 +9,28 @@ body{
     margin: 0;
     padding: 0;  
 }
+.website-margin{
+    margin:100px
+}
+.content {
+    padding-top: 25px;    
+}
 /*General Type*/
 p {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-style: normal;
+  color: #f5f5f5;
+}
+h1{
+    text-align: center;
+    color: #c51d34;
+    font-size: 45px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    letter-spacing: 5px;
+     margin-bottom: 4px;
 }
 h3 {
     font-size: 20px;
@@ -21,13 +38,15 @@ h3 {
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-style: normal;
+    margin: 0;
 }
 h2 {
-  font-size: 50px;
+  font-size: 52px;
   font-family: "Poppins", sans-serif;
   font-weight: 800;
   font-style: normal;
   color: #c51d34;
+  margin: 0;
 }
 h4 {
     font-size: 25px;
@@ -35,6 +54,7 @@ h4 {
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-style: normal;
+    margin: 0;
 }
 a {
     text-decoration: none;
@@ -148,21 +168,29 @@ nav a.active {
     justify-content: center;
     align-items: center;
     height: auto;
-    width: 80%;
+    width: 80vw;
     flex-direction: row;
 }
 .introduction {
     display: flex;
     height: auto;
+    width: 65vw;
     flex-direction: column;
 }
 .text-section h4::after {
     content: " Web Developer";
     color: #c51d34;
 }
+.text-section{
+    display: flex;
+    gap: 1px;
+    margin: 0;
+    flex-direction: column;
+}
 .ctasection {
     display: flex;
     flex: row;
+    margin-top: 30px;
 }
 .button-icon {
     filter: brightness(0) invert(1);
@@ -176,7 +204,6 @@ nav a.active {
     display: flex;
     flex-direction: row;
 }
-
 .account-link-icon {
     margin-top: 20px;
     filter: brightness(0) invert(1);
@@ -191,11 +218,25 @@ nav a.active {
     display: flex;
 }
 .pic-image1 {
-    width: 440px;
-    margin-left: 50px;
+    width: 35vw;
     height: auto;
     justify-content: center;
     align-items: center;
+    display: flex;
+}
+
+/*About Page*/
+.aboutme {
+    background-color: #2e2e30;
+    border: solid #808080;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+.pic-image2 {
+    width: 20vw;
+    display: flex;
 }
 
 
@@ -206,5 +247,7 @@ nav a.active {
 
 
 
+
+
 .form-container { max-width: 400px; margin: auto; padding: 20px; }
-input, textarea { width: 100%; padding: 10px; margin-top: 5px; 
+input, textarea { width: 100%; padding: 10px; margin-top: 5px; }
