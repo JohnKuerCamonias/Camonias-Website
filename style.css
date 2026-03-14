@@ -299,8 +299,15 @@ nav a.active {
     margin: 0;
     flex-direction: column;
 }
+.text-section h3{
+    animation: fadeUp 0.8s ease 0.3s both;
+}
 .text-section h2{
     text-align: left;
+    animation: fadeUp 0.8s ease 0.6s both;
+}
+.text-section h4{
+    animation: fadeUp 0.8s ease 0.8s both;
 }
 .ctasection {
     display: flex;
@@ -314,6 +321,7 @@ nav a.active {
     justify-content: center;
     margin: 0;
     padding: 10px;
+    animation: fadeUp 0.8s ease 1s both;
 }
 .button-icon {
     filter: brightness(0) invert(1);
@@ -328,6 +336,7 @@ nav a.active {
     flex-direction: row;
     justify-content: left;
     gap:  5px;
+    animation: fadeUp 0.8s ease 1.2s both;
 }
 .account-link-icon {
     margin-top: 20px;
@@ -344,13 +353,17 @@ nav a.active {
     align-items: center;
 }
 .pic-image1 {
-        margin-top: 20px;
+    margin-top: 20px;
     height: auto;
     display: flex;
     border: solid rgba(0, 0, 0, 0.0);
     border-radius: 40px;
+    animation: fadeUp 1.4s ease 1.2s both;
 }
-
+@keyframes HomefadeUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
 /*About Page*/
 .aboutsection{
     display: flex;
