@@ -449,6 +449,7 @@ nav a.active {
     height: auto;
     filter: brightness(0) invert(1);
     margin-top: 10px;
+    
 }
 .skill-icon-individual h4{
     font-size: 18px;
@@ -725,7 +726,7 @@ nav  a::after {
 }
 .skill-icon-individual img {
     width: 25vw;
-    max-width: 120px;
+    max-width: 110px;
 }
 .other-skill {
     width: 75vw;
