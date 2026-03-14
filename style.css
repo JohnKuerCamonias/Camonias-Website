@@ -11,7 +11,7 @@ body{
     width: 100%;
 }
 .content {
-    padding-top: 10px; 
+    padding-top: 20px; 
     display: flex;   
     justify-content: center;
     align-items: center;
@@ -276,7 +276,7 @@ nav a.active {
     align-items: center;
     height: auto;
     gap: 10px;
-    width: 1250px;
+    width: 100%;
     flex-direction: row;
 }
 .introduction {
@@ -291,7 +291,7 @@ nav a.active {
 }
 .text-section{
     display: flex;
-    gap: 1px;
+    gap: 10px;
     margin: 0;
     flex-direction: column;
 }
@@ -489,10 +489,6 @@ nav a.active {
     margin: 0 0 10px 10px;
     font-size: 20px;
 }
-.comingsoon {
-    margin-bottom: 86px;
-}
-
 /*Contact Section*/
 .contactme {
     display: flex;
@@ -596,35 +592,14 @@ h2 {
 h4 {
     font-size: 25px;
 }
-.button-type1 {
-    border-radius: 50px;
-    margin-right: 20px;
-    padding: 14px 10px 10px 14px;
-}
-.button-type2 {
-    padding: 14px 10px 10px 14px;
-}
-
-
 /*Nav Bar*/
 nav  a::after {
     height: 3px;
 }
 /*Home Page*/ 
 .homesection{
-    margin: 0px 10px 0px 10px;
-    gap: 10px;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     width: 100%;
-}
-.introduction{
-    width: 90vw;
-}
-.text-section{
-    text-align: center;
-    gap: 10px;
 }
 .ctasection {
     margin-top: 35px;
@@ -663,21 +638,24 @@ nav  a::after {
 /*About Page*/
 .about-container {
     width: 85vw;
+    max-width: 570px;
 }
 .aboutme {
     flex-direction: column-reverse;
-    padding: 10px;
+    padding: 10px 20px;
     gap: 50px;
     margin-bottom: 50px;
 }
 .about-text-section {
     width: 80vw;
+    max-width: 500px;
 }
 .about-text-section h3 {
     font-size: 17px;
 }
 .pic-image2 {
     height: 70vw;
+    max-height: 360px;
 }
 /* Skills Section*/
 .what-i-do {
@@ -703,10 +681,12 @@ nav  a::after {
 .skill-icon-individual img {
     width: 25vw;
     margin-top: 10px;
+    max-width: 120px;
 }
 .other-skill {
     width: 75vw;
     padding: 15px;
+    max-width: 480px;
 }
 .other-skill h4 {
     margin-top: 25px;
@@ -718,11 +698,13 @@ nav  a::after {
     gap: 40px;
 }
 .individual-projects {
-    width: 310px;
-    height: 440px;
+    width: 80vw;
+    max-width: 520px;
+    height: auto;
 }
 .individual-projects img {
-    width: 310px;
+    width: 80vw;
+    max-width: 520px;
 }
 .project-descriptions {
     padding: 20px;
@@ -749,9 +731,6 @@ nav  a::after {
     margin: 0 0 10px 10px;
     font-size: 20px;
 }
-.comingsoon {
-    margin-bottom: 86px;
-}
 /*Contact Section*/
 .contactme {
     flex-direction: column;
@@ -777,11 +756,13 @@ nav  a::after {
 }
 .contact-form {
     width: 90vw;
+    max-width: 580px;
     height: 360px;
 }
 input, textarea {
     margin-top: 10px;
     width: 75vw;
+    max-width: 530px;
     height: 50px;
     padding-left: 10px;
 }
@@ -803,29 +784,18 @@ textarea {
  /*Tablet & Laptop*/
  @media screen and (min-width: 768px) and (max-width: 1023px) {
 h1{
-    font-size: 42px;
+    font-size: 44px;
 }
 h3 {
-    font-size: 26px;
+    font-size: 28px;
 }
 h2 {
   font-size: 34px;
 }
 h4 {
-    font-size: 21px;
+    font-size: 23px;
 }
 /*Home Page*/ 
-.homesection{
-    margin: 0px 10px 0px 10px;
-    gap: 0px;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-}
-.introduction{
-    width: 400px;
-}
 .text-section{
     gap: 10px;
     text-align: left;
@@ -862,12 +832,14 @@ h4 {
 }
 .pic-image1 {
     margin-top: 20px;
-    width: 330px;
+    width: 45vw;
+    max-width: 440px;
 }
 
 /*About Page*/
 .about-container {
-    width: 700px;
+    width: 90vw;
+    max-width: 780px;
 }
 .aboutme {
     flex-direction: row;
@@ -876,7 +848,8 @@ h4 {
     margin-bottom: 50px;
 }
 .about-text-section {
-    width: 80vw;
+    width: 45vw;
+    max-width: 430px;
 }
 .about-text-section h3 {
     font-size: 15px;
@@ -924,16 +897,16 @@ h4 {
     gap: 2vw;
 }
 .individual-projects {
-    width: 235px;
-    height: 435px;
+    width: 30vw;
+    height: auto;
     border-radius: 25px;
 }
 .individual-projects img {
-    width: 235px;
+    width: 30vw;
 }
 .project-descriptions {
     padding: 20px;
-    height: 200px;
+    height: 150px;
 }
 .project-descriptions  h3 {
     font-size: 20px;
@@ -982,12 +955,12 @@ h4 {
     width: 50px;
 }
 .contact-form {
-    width: 400px;
+    width: 45vw;
     height: 350px;
 }
 input, textarea {
     margin-top: 10px;
-    width: 350px;
+    width: 40vw;
     height: 50px;
     padding-left: 10px;
 }
@@ -1013,23 +986,12 @@ h3 {
     font-size: 30px;
 }
 h2 {
-  font-size: 55px;
+  font-size: 38px;
 }
 h4 {
     font-size: 28px;
 }
 /*Home Page*/ 
-.homesection{
-    margin: 0px 10px 0px 10px;
-    gap: 20px;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-}
-.introduction{
-   width: auto;
-}
 .text-section{
     gap: 10px;
     text-align: left;
@@ -1063,12 +1025,14 @@ h4 {
 }
 .pic-image1 {
     margin-top: 20px;
-    width: 500px;
+    width: 45vw;
+    max-width: 540px;
 }
 
 /*About Page*/
 .about-container {
-    width: 1000px;
+    width: 90vw;
+    max-width: 1100px;
 }
 .aboutme {
     flex-direction: row;
@@ -1077,7 +1041,8 @@ h4 {
     margin-bottom: 50px;
 }
 .about-text-section {
-    width: 550;
+    width: 40vw;
+    max-width: 500px;
 }
 .about-text-section h3 {
     font-size: 18px;
@@ -1112,7 +1077,8 @@ h4 {
     margin-top: 10px;
 }
 .other-skill {
-    width: 500px;
+    width: 40vw;
+    max-width: 500px;
     padding: 0;
 }
 
@@ -1122,16 +1088,18 @@ h4 {
     gap: 20px;
 }
 .individual-projects {
-    width: 300px;
-    height: 430px;
+    width: 30vw;
+    max-width: 400px;
+    height: auto;
     border-radius: 30px;
 }
 .individual-projects img {
-    width: 300px;
+    width: 30vw;
+    max-width: 400px;
 }
 .project-descriptions {
     padding: 20px;
-    height: 250px;
+    height: 120px;
 }
 .project-descriptions  h3 {
     font-size: 20px;
@@ -1158,7 +1126,7 @@ h4 {
 /*Contact Section*/
 .contactme {
     flex-direction:row;
-    gap: 150px;
+    gap: 100px;
     width: 100%;
 }
 .contact-account {
@@ -1176,12 +1144,14 @@ h4 {
     width: 50px;
 }
 .contact-form {
-    width: 500px;
+    width: 50vw;
     height: 360px;
+    max-width: 620px;
 }
 input, textarea {
     margin-top: 10px;
-    width: 450px;
+    width: 45vw;
+    max-width: 570px;
     height: 50px;
     padding-left: 10px;
 }
@@ -1193,7 +1163,6 @@ textarea {
     text-align: center;
     padding: 5px 10px 5px 10px;
  }  
-
 }
 
  /* Larger Desktop*/
