@@ -12,7 +12,7 @@ body{
 }
 /*General Type*/
 .content {
-    padding-top: 20px; 
+    padding-top: 45px; 
     display: flex;   
     justify-content: center;
     align-items: center;
@@ -134,7 +134,7 @@ nav li {
     justify-content: center;
     align-items: center;
     display: inline-block;
-    padding: 15px 20px 15px 20px;
+    padding: 15px 15px 15px 15px;
     text-align: center;
     font-family: "Poppins", sans-serif;
     color: lightgrey;
@@ -268,9 +268,6 @@ nav a.active {
 }
 
 /*Content Section*/
-.content {
-    margin-top: 100px;
-}
 /*Home Page*/ 
 .homesection{
     margin: 0px 50px 0px 50px;
@@ -636,7 +633,7 @@ textarea {
     justify-content: center;
   }
   .content {
-    padding-top: 50px;
+    padding-top: 70px;
 }
   
 h1{
@@ -781,10 +778,13 @@ h3 {
     font-size: 28px;
 }
 h2 {
-  font-size: 30px;
+  font-size: 40px;
 }
 h4 {
     font-size: 23px;
+}
+  .content {
+    padding-top: 70px;
 }
 /*Home Page*/ 
 .ctabutton{
@@ -792,7 +792,7 @@ h4 {
     font-size: 14px;
 }
 .pic-image1 {
-    width: 40vw;
+    width: 50vw;
     max-width: 440px;
 }
 
@@ -864,7 +864,7 @@ h3 {
     font-size: 30px;
 }
 h2 {
-  font-size: 38px;
+  font-size: 50px;
 }
 h4 {
     font-size: 28px;
