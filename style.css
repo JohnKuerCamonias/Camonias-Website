@@ -300,6 +300,11 @@ nav a.active {
     flex: row;
     margin-top: 30px;
 }
+.ctabutton{
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
 .button-icon {
     filter: brightness(0) invert(1);
     width: 30px;
@@ -999,8 +1004,195 @@ textarea {
 
 }
 
- /*Desktop*/
+ /*Desktop & Laptop*/
  @media screen and (min-width: 1024px) and (max-width: 1440px) {
+h1{
+    font-size: 45px;
+}
+h3 {
+    font-size: 30px;
+}
+h2 {
+  font-size: 55px;
+}
+h4 {
+    font-size: 28px;
+}
+/*Home Page*/ 
+.homesection{
+    margin: 0px 10px 0px 10px;
+    gap: 100px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.introduction{
+   width: auto;
+}
+.text-section{
+    gap: 10px;
+    text-align: left;
+}
+.text-section h2{
+    text-align: left;
+}
+.ctasection {
+    margin-top: 35px;
+    margin-bottom: 10px;
+    flex-direction: row;
+    gap: 20px;
+}
+.ctabutton{
+    width: 180px;
+    height: 30px;
+    font-size: 18px;
+}
+.button-icon {
+    width: 30px;
+}
+.links{
+    justify-content: left;
+    gap:  5px;
+}
+.account-link-icon {
+    width: 50px;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+.pic-image1 {
+    margin-top: 20px;
+    width: 500px;
+}
+
+/*About Page*/
+.about-container {
+    width: 1000px;
+}
+.aboutme {
+    flex-direction: row;
+    padding: 10px;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+.about-text-section {
+    width: 550;
+}
+.about-text-section h3 {
+    font-size: 18px;
+}
+.pic-image2 {
+    height: 300px;
+}
+/* Skills Section*/
+.what-i-do {
+    padding-bottom: 20px;
+    margin:20px 10px;
+}
+.skill-part{
+    margin: 0;
+    flex-direction: row;
+}
+.prog-skill{
+    width: 500px;
+    flex-direction: column;
+}
+.prog-skill-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.vertical-line {
+    border-bottom: 2px solid #f5f5f5;
+    margin: 20px 20px; 
+}
+.skill-icon-individual img {
+    width: 120px;
+    margin-top: 10px;
+}
+.other-skill {
+    width: 500px;
+    padding: 0;
+}
+
+/*Project Section*/
+.projects {
+    flex-direction: row;
+    gap: 20px;
+}
+.individual-projects {
+    width: 300px;
+    height: 430px;
+    border-radius: 30px;
+}
+.individual-projects img {
+    width: 300px;
+}
+.project-descriptions {
+    padding: 20px;
+    height: 250px;
+}
+.project-descriptions  h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.project-descriptions  p {
+    font-size: 14px;
+}
+.tags {
+    gap: 5px;
+    padding:10px;
+}
+.tags h4 {
+    font-size: 12px;
+    padding: 3px 8px 3px 8px;
+    margin: 5px 0 5px 5px;
+}
+.individual-projects .button-type2 {
+    width: 125px;
+    padding: 5px 10px 5px 10px;
+    margin: 0 0 10px 10px;
+    font-size: 20px;
+}
+/*Contact Section*/
+.contactme {
+    flex-direction:row;
+    gap: 150px;
+    width: 100%;
+}
+.contact-account {
+    gap: 10px;
+    justify-content: left;
+}
+.individual-link-container a{
+    width: 350px;
+    gap: 15px;
+}
+.individual-link-container h4 {
+    font-size: 20px;
+}
+.individual-link-container img {
+    width: 50px;
+}
+.contact-form {
+    width: 500px;
+    height: 360px;
+}
+input, textarea {
+    margin-top: 10px;
+    width: 450px;
+    height: 50px;
+    padding-left: 10px;
+}
+textarea {
+    height: 130px;
+}
+ form .button-type2 {
+    font-size: 20px;
+    text-align: center;
+    padding: 5px 10px 5px 10px;
+ }  
 
 }
 
