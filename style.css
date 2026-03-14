@@ -770,12 +770,12 @@ nav  a::after {
     width: 50px;
 }
 .contact-form {
-    width: 80vw;
+    width: 90vw;
     height: 360px;
 }
 input, textarea {
     margin-top: 10px;
-    width: 70vw;
+    width: 75vw;
     height: 50px;
     padding-left: 10px;
 }
