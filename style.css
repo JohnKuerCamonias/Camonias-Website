@@ -129,6 +129,7 @@ nav ul {
     background-color: #2e2e30;
     border: 2px solid #2e2e30;
     border-radius: 50px;
+    margin: 0;
 }
 nav li {
     justify-content: center;
@@ -448,6 +449,9 @@ nav a.active {
     height: auto;
     filter: brightness(0) invert(1);
     margin-top: 10px;
+}
+.skill-icon-individual h4{
+    font-size: 18px;
 }
     .vertical-line {
         border-left: 2px solid #f5f5f5;
@@ -818,7 +822,7 @@ h4 {
     flex-direction: column;
 }
 .skill-icon-individual img {
-    width: 120px;
+    width: 100px;
 }
 .other-skill {
     width: 50vw;
@@ -900,7 +904,7 @@ h4 {
     flex-direction: column;
 }
 .skill-icon-individual img {
-    width: 120px;
+    width: 100px;
 }
 .other-skill {
     width: 40vw;
