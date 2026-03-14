@@ -1,3 +1,19 @@
+// Hamburger Menu
+const hamburger = document.getElementById('hamburger');
+const mobilenav = document.getElementById('mobilenav');
+
+hamburger.addEventListener('click', () => {
+    hamburger.classList.toggle('open');
+    mobilenav.classList.toggle('open');
+});
+
+mobilenav.querySelectorAll('a').forEach(link =>{
+    link.addEventListener('click', () =>{
+        hamburger.classList.remove('open');
+        mobilenav.classList.remove('open');
+    });
+});
+
 // Active Section in Navigation bar
 let sections = document.querySelectorAll('section');
 let navLinks = document.querySelectorAll('header nav a');
