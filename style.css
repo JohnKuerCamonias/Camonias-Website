@@ -77,7 +77,6 @@ header{
 }
 .button-type1 {
     background-color:#c51d34;
-    border: 2px solid #c51d34;
     display: flex;
     border-radius: 50px;
     width: auto;
@@ -90,8 +89,13 @@ header{
     font-weight: 500;
     font-style: normal;
     cursor: pointer;
-    padding: 14px 10px 10px 14px;
+    padding: 10px 5px;
+    transition: all 0.3s ease;
 }
+.button-type1:hover {
+    box-shadow: 0 0 34px rgba(197, 29, 52, 0.9);
+}
+
 .button-type2 {
     background-color: rgba(0, 0, 0, 0.0);
     display: flex;
@@ -107,8 +111,22 @@ header{
     font-weight: 500;
     font-style: normal;
     cursor: pointer;
-    padding: 14px 10px 10px 14px;
+     padding: 10px 5px;
+    transition: all 0.3s ease;
 }
+.liquid {
+  background: linear-gradient(#c51d34 0 0) no-repeat calc(200% - var(--p, 0%))
+    100% / 200% var(--p, 0.2em);
+    transition: 0.3s var(--t, 0s),
+      background-position 0.3s calc(0.3s - var(--t, 0s));
+}
+
+.liquid:hover {
+  --p: 100%;
+  --t: 0.3s;
+  color: #fff;
+}
+
 
 
 /*Nav Bar*/
@@ -198,7 +216,6 @@ nav a.active {
   padding: 10px;
   margin: 10px 0 0 10px;
 }
-
 .hamburger span {
   display:block;
   width: 100%;
@@ -273,7 +290,7 @@ nav a.active {
 .homesection{
     margin: 0px 50px 0px 50px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     height: auto;
     gap: 10px;
@@ -319,7 +336,7 @@ nav a.active {
     justify-content: center;
     margin: 0;
     padding: 10px;
-    animation: fadeUp 0.8s ease 1s both;
+       animation: fadeUp 0.8s ease 1s both;
 }
 .button-icon {
     filter: brightness(0) invert(1);
@@ -345,6 +362,13 @@ nav a.active {
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    border-radius: 20px;
+    transition: all 0.6s ease;
+}
+
+.account-link-icon:hover{
+    transform: translateY(-5px) scale(1.1);
+    
 }
 .pic-image{
     display: flex;
@@ -357,10 +381,6 @@ nav a.active {
     border: solid rgba(0, 0, 0, 0.0);
     border-radius: 40px;
     animation: fadeUp 1.4s ease 1.2s both;
-}
-@keyframes HomefadeUp {
-  from { opacity: 0; transform: translateY(20px); }
-  to   { opacity: 1; transform: translateY(0); }
 }
 /*About Page*/
 .aboutsection{
@@ -428,7 +448,6 @@ nav a.active {
 }
 .prog-skill{
     display: flex;
-    width: 500px;
     height: auto;
     flex-direction: column;
     padding-left: 15px;
@@ -448,11 +467,42 @@ nav a.active {
     border: solid rgba(128,128,128, 0.25);
     border-radius: 25px;
     width: 150px;
+    transition: all 0.2s ease;
 }
 .skill-icon-individual img {
     height: auto;
     filter: brightness(0) invert(1);
     margin-top: 10px;
+}
+#html:hover{
+    background-color: #2e2e30;
+    border: solid #E34C26;
+}
+#html:hover img{
+    filter: invert(39%) sepia(87%) saturate(1636%) hue-rotate(345deg) brightness(96%) contrast(89%);
+}
+#html:hover h4{
+    color: #E34C26;
+}
+#css:hover {
+    background-color: #2e2e30;
+    border: solid #663399;
+}
+#css:hover img{
+    filter: invert(30%) sepia(45%) saturate(2250%) hue-rotate(225deg) brightness(85%) contrast(90%);
+}
+#css:hover h4{
+    color: #663399;
+}
+#js:hover {
+    background-color: #2e2e30;
+    border: solid #F7DF1E;
+}
+#js:hover img{
+    filter: invert(85%) sepia(56%) saturate(1478%) hue-rotate(10deg) brightness(105%) contrast(101%);
+}
+#js:hover h4{
+    color: #F7DF1E;
 }
 .skill-icon-individual h4{
     font-size: 18px;
@@ -487,6 +537,12 @@ nav a.active {
     animation: fadeUp linear;
     animation-timeline:view();
     animation-range: entry 0% cover 40%;
+    transition: all 0.3s ease;
+}
+.individual-projects:hover{
+    transform: translateY(-20px);
+    border: 2px solid #c51d34;
+    box-shadow: 0 0 24px rgba(197, 29, 52, 0.5);
 }
 .individual-projects img {
     display: flex;
@@ -565,6 +621,12 @@ nav a.active {
     padding: 10px 0 10px 10px;
     gap: 15px;
     align-items: center;
+    transition: all 0.3s ease;
+}
+.individual-link-container a:hover{
+    background-color: rgba(197, 29, 52, 0.5);
+    border-color: #c51d34; 
+    transform: translateX(12px);
 }
 .individual-link-container h4 {
     font-size: 20px;
@@ -599,6 +661,10 @@ input, textarea {
     font-style: normal;
     color: #f5f5f5;
     padding-left: 10px;
+
+}
+input:focus{
+    outline: none;
 }
 textarea {
     height: 130px;
@@ -624,7 +690,7 @@ textarea {
 }
 
  /*Phones*/
- @media screen and (min-width: 320px) and (max-width: 767px) {
+ @media screen and (max-width: 767px) {
     nav {
     display: none;
   }
@@ -749,11 +815,11 @@ nav  a::after {
 }
 .individual-projects {
     width: 80vw;
-    max-width: 520px;
+    max-width: 500px;
 }
 .individual-projects img {
     width: 80vw;
-    max-width: 520px;
+    max-width: 500px;
 }
 .project-descriptions {
     height: 200px;
@@ -868,7 +934,7 @@ input, textarea {
 }
 
  /*Desktop & Laptop*/
- @media screen and (min-width: 1024px) and (max-width: 1440px) {
+ @media screen and (min-width: 1024px) and (max-width: 1439px) {
 h1{
     font-size: 45px;
 }
@@ -908,7 +974,7 @@ h4 {
 }
 /* Skills Section*/
 .prog-skill{
-    width: 500px;
+    width: 35vw;
     flex-direction: column;
 }
 .skill-icon-individual img {
@@ -949,7 +1015,7 @@ input, textarea {
 }
 
  /* Larger Desktop*/
- @media screen and (min-width: 1441px){
+ @media screen and (min-width: 1440px){
 
 }
 
