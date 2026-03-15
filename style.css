@@ -1127,16 +1127,6 @@ font-size: clamp(25px, 2vw, 55px);
 .contactme{
     margin-bottom: 300px;
 }
-.contact-form {
-    width: 50vw;
-    height: auto;
-    max-width: 1600px;
-}
-input, textarea {
-    width: 45vw;
-    max-width: 1600px;
-    font-size: clamp(18px, 1.5vw, 55px);
-}
 .contact-account h3{
     font-size: clamp(25px, 2vw, 55px); 
 }
@@ -1147,7 +1137,27 @@ input, textarea {
     width: 5vw;
 }
 .individual-link-container a {
-    width: 500px;
+    width: 30vw;
+    justify-content: left;
+}
+.contact-form {
+    width: 50vw;
+    height: auto;
+    max-width: 1600px;
+    padding: 20px 30px;
+}
+input{
+    height: 5vw;
+    max-height: 200px;
+}
+textarea{
+    height: 12vw;
+    max-height: 440px;
+}
+input, textarea {
+    width: 45vw;
+    max-width: 1600px;
+    font-size: clamp(18px, 1.5vw, 55px);
 }
 #submit-button{
     font-size: clamp(25px, 1.6vw, 55px); 
