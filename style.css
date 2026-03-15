@@ -1093,7 +1093,7 @@ h2{
 .individual-projects {
     width: 30vw;
     max-width: 800px;
-    border-radius: 30px;
+    border-radius: 55px;
 }
 .individual-projects img {
     width: 30vw;
@@ -1122,6 +1122,7 @@ font-size: clamp(25px, 2vw, 55px);
     max-width: 280px;
     padding: 15px 30px;
     margin: 0 0 15px 15px;
+    border-radius: 30px;
 }
 /*Contact Section*/
 .contactme{
@@ -1139,12 +1140,14 @@ font-size: clamp(25px, 2vw, 55px);
 .individual-link-container a {
     width: 30vw;
     justify-content: left;
+    border-radius: 60px;
 }
 .contact-form {
     width: 50vw;
     height: auto;
     max-width: 1600px;
     padding: 20px 30px;
+    border-radius: 60px;
 }
 input{
     height: 5vw;
@@ -1165,6 +1168,7 @@ input, textarea {
     max-width: 280px;
     padding: 10px 20px;
     margin: 0 0 10px 5px;
+    border-radius: 30px;
 }
 }
 
