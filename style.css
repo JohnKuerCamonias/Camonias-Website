@@ -1157,10 +1157,10 @@ textarea{
 input, textarea {
     width: 45vw;
     max-width: 1600px;
-    font-size: clamp(18px, 1.5vw, 55px);
+    font-size: clamp(18px, 1.5vw, 50px);
 }
 #submit-button{
-    font-size: clamp(25px, 1.6vw, 55px); 
+    font-size: clamp(25px, 2vw, 60px); 
     width: 12vw;
     max-width: 280px;
     padding: 10px 20px;
