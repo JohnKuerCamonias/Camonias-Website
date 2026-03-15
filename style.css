@@ -137,7 +137,7 @@ nav {
     position: fixed;
     justify-content: center;
     align-items: center;
-    height: 60px;
+    height: auto;
     left: 0;
     right: 0;
 }
@@ -348,8 +348,9 @@ nav a.active {
     align-items: center;
     justify-content: center;
     margin: 0;
-    padding: 10px;
-       animation: fadeUp 0.8s ease 1s both;
+    width: auto;
+    padding: 8px 16px;
+    animation: fadeUp 0.8s ease 1s both;
 }
 .button-icon {
     filter: brightness(0) invert(1);
@@ -748,7 +749,7 @@ nav  a::after {
     justify-content: center;
 }
 .ctabutton{
-    width: 175px;
+    width: 160px;
     font-size: 18px;
 }
 .links{
@@ -939,11 +940,11 @@ input, textarea {
  @media screen and (min-width: 1024px) and (max-width: 1439px) {
 /*Home Page*/ 
 h2{
-    font-size: clamp(30px, 3.5vw, 55px);
+    font-size: clamp(28px, 3.7vw, 55px);
 }
 .ctabutton{
-    width: 180px;
     font-size: 18px;
+    width: 170px;
 }
 .pic-image1 {
     width: 45vw;
@@ -1010,6 +1011,151 @@ input, textarea {
  /* Larger Desktop*/
  @media screen and (min-width: 1440px){
 
+nav{
+    height: auto;
+}
+nav li {
+    padding: 1.4vw;
+}
+nav a {
+    font-size: clamp(18px, 1.5vw, 38px);
+    padding: 0 3px;
+    letter-spacing: 0.4;
+    transition: .3s;
+}
+.content{
+    margin-top: 100px;
+}
+/*Home Page*/ 
+h1{
+    font-size: clamp(35px, 4vw, 80px);
+}
+h2{
+    font-size: clamp(35px, 4vw, 75px);
+}
+.homesection{
+    justify-content: center;
+    gap:5vw
+}
+.ctabutton{
+    font-size: 25px;
+    width: 210px;
+    padding: 15px 30px;
+}
+.pic-image1 {
+    width: 40vw;
+    max-width: 700px;
+}
+
+/*About Page*/
+.about-container {
+    width: 70vw;
+    max-width: 1800px;
+}
+.about-text-section {
+    width: 40vw;
+    max-width: 1000px;
+}
+.about-text-section h3 {
+    font-size: clamp(18px, 1.5vw, 35px);
+}
+.pic-image2 {
+    width: 25vw;
+    max-width: 600px;
+}
+/* Skills Section*/
+.prog-skill-container{
+    gap: 20px;
+}
+.prog-skill{
+    width: 35vw;
+}
+.skill-part h4, h3{
+    font-size: clamp(25px, 2vw, 55px); 
+}
+.skill-icon-individual{
+    width: 15vw;
+    max-width: 320px;
+}
+.skill-icon-individual img {
+    width: 10vw;
+}
+.other-skill {
+    width: 40vw;
+    max-width: 700px;
+    padding: 0;
+}
+.other-skill p {
+    font-size: clamp(25px, 1.4vw, 55px); 
+}
+
+/*Project Section*/
+.individual-projects {
+    width: 30vw;
+    max-width: 800px;
+    border-radius: 30px;
+}
+.individual-projects img {
+    width: 30vw;
+    max-width: 800px;
+}
+.project-descriptions {
+    height: auto;
+}
+.project-descriptions p {
+    font-size: clamp(25px, 1.4vw, 55px); 
+}
+.project-descriptions h3 {
+font-size: clamp(25px, 2vw, 55px); 
+}
+.comingsoon{
+    height: 60%;
+}
+.tags h4{
+    font-size: clamp(25px, 1.4vw, 55px); 
+    border-radius: 20px;
+    margin: 20px 0;
+}
+#view-button{
+    font-size: clamp(25px, 1.6vw, 55px); 
+    width: 12vw;
+    max-width: 280px;
+    padding: 15px 30px;
+    margin: 0 0 15px 15px;
+}
+/*Contact Section*/
+.contactme{
+    margin-bottom: 300px;
+}
+.contact-form {
+    width: 50vw;
+    height: auto;
+    max-width: 1600px;
+}
+input, textarea {
+    width: 45vw;
+    max-width: 1600px;
+    font-size: clamp(18px, 1.5vw, 55px);
+}
+.contact-account h3{
+    font-size: clamp(25px, 2vw, 55px); 
+}
+.individual-link-container h4{
+     font-size: clamp(25px, 3vw, 60px); 
+}
+.individual-link-container img {
+    width: 5vw;
+}
+.individual-link-container a {
+    width: 500px;
+}
+#submit-button{
+    font-size: clamp(25px, 1.6vw, 55px); 
+    width: 12vw;
+    max-width: 280px;
+    padding: 10px 20px;
+    margin: 0 0 10px 5px;
+}
 }
 
 
