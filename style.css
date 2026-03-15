@@ -1038,9 +1038,15 @@ h2{
     gap:5vw
 }
 .ctabutton{
-    font-size: 25px;
-    width: 210px;
+    font-size: clamp(25px, 2vw, 45px); 
+    width: 17vw;
+    max-width: 400px;
     padding: 15px 30px;
+    margin: 0 0 10px 5px;
+    border-radius: 30px;
+}
+.ctabutton img {
+    width: 3vw;
 }
 .pic-image1 {
     width: 40vw;
