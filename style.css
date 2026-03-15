@@ -26,6 +26,7 @@ p {
   margin: 0;
 }
 h1{
+    font-size: clamp(48px, 6vw, 80px);
     text-align: center;
     color: #c51d34;
     font-size: 45px;
@@ -38,7 +39,7 @@ h1{
     animation-range: entry 0% cover 40%;
 }
 h3 {
-    font-size: 30px;
+    font-size: clamp(16px, 1.8vw, 40px);
     color: #f5f5f5;
     font-family: "Poppins", sans-serif;
     font-weight: 700;
@@ -46,7 +47,7 @@ h3 {
     margin: 0;
 }
 h2 {
-  font-size: 55px;
+    font-size: clamp(40px, 2.4vw, 50px);
   font-family: "Poppins", sans-serif;
   font-weight: 800;
   font-style: normal;
@@ -55,7 +56,7 @@ h2 {
   text-align: center;
 }
 h4 {
-    font-size: 28px;
+    font-size: clamp(16px, 1.8vw, 40px);
     color: #f5f5f5;
     font-family: "Poppins", sans-serif;
     font-weight: 700;
@@ -368,7 +369,7 @@ nav a.active {
 
 .account-link-icon:hover{
     transform: translateY(-5px) scale(1.1);
-    
+    filter: brightness(0) saturate(100%) invert(26%) sepia(85%) saturate(2250%) hue-rotate(334deg) brightness(90%) contrast(97%);
 }
 .pic-image{
     display: flex;
@@ -475,8 +476,8 @@ nav a.active {
     margin-top: 10px;
 }
 #html:hover{
-    background-color: #2e2e30;
     border: solid #E34C26;
+    box-shadow: 0 0 34px rgba(227, 76, 38, 0.2);
 }
 #html:hover img{
     filter: invert(39%) sepia(87%) saturate(1636%) hue-rotate(345deg) brightness(96%) contrast(89%);
@@ -485,8 +486,8 @@ nav a.active {
     color: #E34C26;
 }
 #css:hover {
-    background-color: #2e2e30;
     border: solid #663399;
+    box-shadow: 0 0 34px rgba(102, 51, 153, 0.2);
 }
 #css:hover img{
     filter: invert(30%) sepia(45%) saturate(2250%) hue-rotate(225deg) brightness(85%) contrast(90%);
@@ -495,8 +496,8 @@ nav a.active {
     color: #663399;
 }
 #js:hover {
-    background-color: #2e2e30;
     border: solid #F7DF1E;
+    box-shadow: 0 0 34px rgba(247, 223, 30, 0.2);
 }
 #js:hover img{
     filter: invert(85%) sepia(56%) saturate(1478%) hue-rotate(10deg) brightness(105%) contrast(101%);
@@ -542,7 +543,7 @@ nav a.active {
 .individual-projects:hover{
     transform: translateY(-20px);
     border: 2px solid #c51d34;
-    box-shadow: 0 0 24px rgba(197, 29, 52, 0.5);
+    box-shadow: 0 0 24px rgba(197, 29, 52, 0.6);
 }
 .individual-projects img {
     display: flex;
@@ -709,19 +710,6 @@ textarea {
   .content {
     padding-top: 70px;
 }
-  
-h1{
-    font-size: 45px;
-}
-h3 {
-    font-size: 30px;
-}
-h2 {
-  font-size: 45px;
-}
-h4 {
-    font-size: 25px;
-}
 /*Nav Bar*/
 nav  a::after {
     height: 3px;
@@ -849,20 +837,11 @@ input, textarea {
 
  /*Tablet & Laptop*/
  @media screen and (min-width: 768px) and (max-width: 1023px) {
-h1{
-    font-size: 44px;
-}
-h3 {
-    font-size: 28px;
-}
-h2 {
-  font-size: 40px;
-}
-h4 {
-    font-size: 23px;
-}
   .content {
     padding-top: 70px;
+}
+h2{
+    font-size: clamp(28px, 3vw, 45px);
 }
 /*Home Page*/ 
 .ctabutton{
@@ -935,19 +914,10 @@ input, textarea {
 
  /*Desktop & Laptop*/
  @media screen and (min-width: 1024px) and (max-width: 1439px) {
-h1{
-    font-size: 45px;
-}
-h3 {
-    font-size: 30px;
-}
-h2 {
-  font-size: 50px;
-}
-h4 {
-    font-size: 28px;
-}
 /*Home Page*/ 
+h2{
+    font-size: clamp(30px, 3.5vw, 55px);
+}
 .ctabutton{
     width: 180px;
     font-size: 18px;
