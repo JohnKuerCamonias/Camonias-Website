@@ -493,6 +493,9 @@ nav a.active {
     filter: brightness(0) invert(1);
     margin-top: 10px;
 }
+.skill-icon-individual h4{
+    text-align: center;
+}
 #html:hover{
     border: solid #E34C26;
     box-shadow: 0 0 34px rgba(227, 76, 38, 0.2);
@@ -783,11 +786,13 @@ nav  a::after {
 .prog-skill{
     width: 75vw;
     flex-direction: column;
+     text-align: center;
 }
 .prog-skill-container{
     display: flex;
     flex-direction: row;
     gap: 0px;
+    text-align: center;
 }
 .prog-skill-container h4{
     display: flex;
