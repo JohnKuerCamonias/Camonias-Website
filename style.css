@@ -447,6 +447,12 @@ nav a.active {
     flex-direction: row;
     margin: 10px;
 }
+.skill-part h3{
+    text-align: left;
+}
+.skill-part h4{
+    text-align: left;
+}
 .prog-skill{
     display: flex;
     height: auto;
