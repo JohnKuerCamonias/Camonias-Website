@@ -684,7 +684,11 @@ input, textarea {
     font-style: normal;
     color: #f5f5f5;
     padding-left: 10px;
-    transition: transform 0.3s ease, color 0.3 ease;
+    transition: border-color 0.4s ease;
+}
+input:focus, textarea:focus {
+  border-color: #c51d34;
+  outline: none;
 }
 textarea {
     height: 130px;
