@@ -1,210 +1,338 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Camonias Website</title>
     <!--fonts-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
     <!--links-->
-    <link rel="stylesheet" href="style.css">
-    <link rel="script" href="script.js">
-
-</head>
-<body>
-<header>
- <!-- Navigation Bar -->
-<nav class="main-nav">
-    <ul>
-        <li class="menu-item"><a href="#home">Home</a></li>
-        <li class="menu-item"><a href="#about">About</a></li>
-        <li class="menu-item"><a href="#projects">Projects</a></li>
-        <li class="menu-item"><a href="#contact">Contact</a></li>
-    </ul>
-</nav>
-<div class="center-hamburger">
-    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
-        <span></span>
-        <span></span>
-        <span></span>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="script" href="script.js" />
+  </head>
+  <body>
+    <header>
+      <!-- Navigation Bar -->
+      <nav class="main-nav">
+        <ul>
+          <li class="menu-item"><a href="#home">Home</a></li>
+          <li class="menu-item"><a href="#about">About</a></li>
+          <li class="menu-item"><a href="#projects">Projects</a></li>
+          <li class="menu-item"><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="center-hamburger">
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+          <span></span>
         </button>
-        </div>
-</header>
+      </div>
+    </header>
     <nav class="mobile-nav" id="mobilenav">
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
     </nav>
-<!-- Loader -->
+    <!-- Loader -->
     <div class="loader"></div>
 
-<!-- Page Sections -->
-<!-- Home Page -->
-<section id="home" class="content">
-<div class="homesection">
-    <div class="introduction">
-        <div class="text-section">
+    <!-- Page Sections -->
+    <!-- Home Page -->
+    <section id="home" class="content">
+      <div class="homesection">
+        <div class="introduction">
+          <div class="text-section">
             <h3>Hi, I am</h3>
             <h2>JOHN KUER CAMONIAS</h2>
             <h4>Aspiring</h4>
-        </div>
-<!-- Call to action -->
-        <div class="ctasection">
-            <a href="#projects" class="button-type1 ctabutton" id="button1">PROJECTS<img src="./img/arrow-up-right-icon.svg" class="button-icon" alr="arrow-up-right-icon"></a>
+          </div>
+          <!-- Call to action -->
+          <div class="ctasection">
+            <a href="#projects" class="button-type1 ctabutton" id="button1"
+              >PROJECTS<img
+                src="./img/arrow-up-right-icon.svg"
+                class="button-icon"
+                alr="arrow-up-right-icon"
+            /></a>
 
-           <a href="#contact" class="button-type2 ctabutton liquid" id="button2">CONTACT ME<img src="./img/envelope.svg" class="button-icon" alt="envelope"></a>
-        </div>
-<!-- Account links -->
-        <div class="links">
-            <a href="https://github.com/JohnKuerCamonias/" target="_blank" rel="noopener noreferrer">
-                <img src="./img/github.svg" alt="github" class="account-link-icon" id="github">
+            <a
+              href="#contact"
+              class="button-type2 ctabutton liquid"
+              id="button2"
+              >CONTACT ME<img
+                src="./img/envelope.svg"
+                class="button-icon"
+                alt="envelope"
+            /></a>
+          </div>
+          <!-- Account links -->
+          <div class="links">
+            <a
+              href="https://github.com/JohnKuerCamonias/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="./img/github.svg"
+                alt="github"
+                class="account-link-icon"
+                id="github"
+              />
             </a>
-            <a href="https://www.linkedin.com/in/john-kuer-camonias-9a47353b7/" target="_blank" rel="noopener noreferrer">
-                <img src="./img/linkedin.svg" alt="linkedin" class="account-link-icon" id="linkedin">
+            <a
+              href="https://www.linkedin.com/in/john-kuer-camonias-9a47353b7/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="./img/linkedin.svg"
+                alt="linkedin"
+                class="account-link-icon"
+                id="linkedin"
+              />
             </a>
-            <a href="https://www.instagram.com/camoniasjohnkuer/" target="_blank" rel="noopener noreferrer">
-                <img src="./img/instagram.svg" alt="instagram" class="account-link-icon" id="instagram">
+            <a
+              href="https://www.instagram.com/camoniasjohnkuer/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="./img/instagram.svg"
+                alt="instagram"
+                class="account-link-icon"
+                id="instagram"
+              />
             </a>
+          </div>
         </div>
-    </div>
-    <div class="pic-image">
-        <img src="./img/pic1.png" alt="pic1" class="pic-image1">
-    </div>
-    </div>
-</section>
-<!-- About Page -->
-<section id="about" class="content">
-<div class="aboutsection">
-    <h1>ABOUT</h1>
-    <div class="aboutme about-container">
-        <div class="about-text-section">
-            <h3>Hi! I’m <b>John Kuer Camonias</b>, an incoming college student from Golden Faith Academy Senior High School, and is currently seeking opportunities to expand my knowledge and experience with web developing. I’m passionate about building simple and functional websites with the use of HTML, CSS, and JavaScript.</h3>
+        <div class="pic-image">
+          <img src="./img/pic1.png" alt="pic1" class="pic-image1" />
         </div>
-        <img src="./img/pic2.jpg" alt="pic2" class="pic-image2">
-    </div>
-<!-- What I do -->
-        
-    <div class="what-i-do about-container">
-        <h2>What I do</h2>
-        <div class="skill-part">
-<!-- Programming Skills-->
+      </div>
+    </section>
+    <!-- About Page -->
+    <section id="about" class="content">
+      <div class="aboutsection">
+        <h1>ABOUT</h1>
+        <div class="aboutme about-container">
+          <div class="about-text-section">
+            <h3>
+              Hi! I’m <b>John Kuer Camonias</b>, an incoming college student
+              from Golden Faith Academy Senior High School, and is currently
+              seeking opportunities to expand my knowledge and experience with
+              web developing. I’m passionate about building simple and
+              functional websites with the use of HTML, CSS, and JavaScript.
+            </h3>
+          </div>
+          <img src="./img/pic2.jpg" alt="pic2" class="pic-image2" />
+        </div>
+        <!-- What I do -->
+
+        <div class="what-i-do about-container">
+          <h2>What I do</h2>
+          <div class="skill-part">
+            <!-- Programming Skills-->
             <div class="prog-skill">
-                <h3>Programming Skills</h3>
-                <div class="prog-skill-container">
-                    <div class="skill-icon-individual"  id="html"> <img src="./img/html.svg"> <h4>HTML</h4>  </div>
-                    <div class="skill-icon-individual"  id="css"> <img src="./img/css.svg"> <h4>CSS</h4> </div>
-                    <div class="skill-icon-individual"  id="js"> <img src="./img/js.svg">  <h4>JavaScript</h4>  </div>
+              <h3>Programming Skills</h3>
+              <div class="prog-skill-container">
+                <div class="skill-icon-individual" id="html">
+                  <img src="./img/html.svg" />
+                  <h4>HTML</h4>
                 </div>
+                <div class="skill-icon-individual" id="css">
+                  <img src="./img/css.svg" />
+                  <h4>CSS</h4>
                 </div>
-             <div class="vertical-line"></div>
-<!-- Other Skills-->
-            <div class="other-skill">
-                <h3>Other Skills</h3>
-                <h4>Graphic Designing</h4>
-                <p>I can create simple designs such as posters and social media graphics using Canva. I focuses on creating clean and readable designs.</p>
-                <h4>Video Editing</h4>
-                <p>I have simple video editing skills, that enables me to transform footage into clear and engaging videos.</p>
-                <h4>Encoding</h4>
-                <p>I can input and organize data info accurately in documents, and spreadsheets. I keep files organized so that data is easy to access.</p>
+                <div class="skill-icon-individual" id="js">
+                  <img src="./img/js.svg" />
+                  <h4>JavaScript</h4>
+                </div>
+              </div>
             </div>
+            <div class="vertical-line"></div>
+            <!-- Other Skills-->
+            <div class="other-skill">
+              <h3>Other Skills</h3>
+              <h4>Graphic Designing</h4>
+              <p>
+                I can create simple designs such as posters and social media
+                graphics using Canva. I focuses on creating clean and readable
+                designs.
+              </p>
+              <h4>Video Editing</h4>
+              <p>
+                I have simple video editing skills, that enables me to transform
+                footage into clear and engaging videos.
+              </p>
+              <h4>Encoding</h4>
+              <p>
+                I can input and organize data info accurately in documents, and
+                spreadsheets. I keep files organized so that data is easy to
+                access.
+              </p>
+            </div>
+          </div>
         </div>
-    </div>
-</div>
-</section>
+      </div>
+    </section>
 
-<!-- Projects Page -->
-<section id="projects" class="content">
-<div class="projectsection">
-    <h1>PROJECTS</h1>
-    <div class="projects">
-<!-- Project 1 -->       
-        <div class="individual-projects" id="project1">
+    <!-- Projects Page -->
+    <section id="projects" class="content">
+      <div class="projectsection">
+        <h1>PROJECTS</h1>
+        <div class="projects">
+          <!-- Project 1 -->
+          <div class="individual-projects" id="project1">
             <div class="project-image">
-                <img src="./img/priceofeverytomorrow.png">
+              <img src="./img/priceofeverytomorrow.png" />
             </div>
             <div class="project-descriptions">
-                <h3>Price Of Every Tomorrow</h3>
-                <p>An interactive web-based game exploring real-life social issues through meaningful choices and storytelling. Focuses on hunger, inequality, and survival.</p>
+              <h3>Price Of Every Tomorrow</h3>
+              <p>
+                An interactive web-based game exploring real-life social issues
+                through meaningful choices and storytelling. Focuses on hunger,
+                inequality, and survival.
+              </p>
             </div>
             <div class="tags">
-                <h4>HTML</h4>
-                <h4>CSS</h4>
-                <h4>JavaScript</h4>
+              <h4>HTML</h4>
+              <h4>CSS</h4>
+              <h4>JavaScript</h4>
             </div>
-            <a href="https://priceofeverytomorrow.online/index.html" class="button-type2 liquid" id="view-button" target="_blank" rel="noopener noreferrer">View Project</a>
-        </div>
-<!-- Project 2 -->    
-        <div class="individual-projects" id="project2">
+            <a
+              href="https://priceofeverytomorrow.online/index.html"
+              class="button-type2 liquid"
+              id="view-button"
+              target="_blank"
+              rel="noopener noreferrer"
+              >View Project</a
+            >
+          </div>
+          <!-- Project 2 -->
+          <div class="individual-projects" id="project2">
             <div class="project-image">
-                <img src="./img/comingsoon.jpg">
+              <img src="./img/comingsoon.jpg" />
             </div>
             <div class="project-descriptions comingsoon">
-                <h3>Title</h3>
-                <p>Description</p>
+              <h3>Title</h3>
+              <p>Description</p>
             </div>
             <div class="tags">
-                <h4>HTML</h4>
-                <h4>CSS</h4>
+              <h4>HTML</h4>
+              <h4>CSS</h4>
             </div>
-            <a href="" class="button-type2 liquid" id="view-button" target="_blank" rel="noopener noreferrer">View Project</a>
-        </div>
-<!-- Project 3 -->    
-        <div class="individual-projects" id="project3">
+            <a
+              href=""
+              class="button-type2 liquid"
+              id="view-button"
+              target="_blank"
+              rel="noopener noreferrer"
+              >View Project</a
+            >
+          </div>
+          <!-- Project 3 -->
+          <div class="individual-projects" id="project3">
             <div class="project-image">
-                <img src="./img/comingsoon.jpg">
+              <img src="./img/comingsoon.jpg" />
             </div>
             <div class="project-descriptions comingsoon">
-                <h3>Title</h3>
-                <p>Description</p>
+              <h3>Title</h3>
+              <p>Description</p>
             </div>
             <div class="tags">
-                <h4>HTML</h4>
-                <h4>CSS</h4>
+              <h4>HTML</h4>
+              <h4>CSS</h4>
             </div>
-            <a href="" class="button-type2 liquid" id="view-button" target="_blank" rel="noopener noreferrer">View Project</a>
+            <a
+              href=""
+              class="button-type2 liquid"
+              id="view-button"
+              target="_blank"
+              rel="noopener noreferrer"
+              >View Project</a
+            >
+          </div>
         </div>
+      </div>
+    </section>
 
-    </div>
-</div>
-</section>
+    <!-- Contact Page -->
+    <section id="contact" class="content">
+      <div class="contactsection">
+        <h1>GET IN TOUCH</h1>
+        <div class="contactme">
+          <!-- Contact Accounts-->
+          <div class="contact-account">
+            <h3>FOLLOW ME ON</h3>
+            <div class="individual-link-container">
+              <a
+                href="https://www.facebook.com/johnkuer.camonias"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><img src="./img/facebook.svg" alt="facebook" />
+                <h4>Facebook</h4></a
+              >
+            </div>
+            <div class="individual-link-container">
+              <a
+                href="https://www.instagram.com/camoniasjohnkuer/"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><img src="./img/instagram.svg" alt="instagram" />
+                <h4>Instagram</h4></a
+              >
+            </div>
+            <div class="individual-link-container">
+              <a
+                href="https://www.tiktok.com/@riceecooked"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><img src="./img/tiktok.svg" alt="tiktok" />
+                <h4>TikTok</h4></a
+              >
+            </div>
+          </div>
 
-<!-- Contact Page -->
-<section id="contact" class="content">
-<div class="contactsection">
-    <h1>GET IN TOUCH</h1>
-<div class="contactme">
-<!-- Contact Accounts-->
-    <div class="contact-account">
-                 <h3>FOLLOW ME ON</h3>
-        <div class="individual-link-container">
-            <a href="https://www.facebook.com/johnkuer.camonias" target="_blank" rel="noopener noreferrer"><img src="./img/facebook.svg" alt="facebook" > <h4>Facebook</h4></a>
+          <!-- Google Form -->
+          <div class="contact-form">
+            <form action="https://api.web3forms.com/submit" method="POST">
+              <input
+                type="hidden"
+                name="access_key"
+                value="57bf4625-7a55-4a52-b7b4-799865a36fdd"
+              />
+              <input type="text" name="name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="message"
+                placeholder="Your Message"
+                required
+              ></textarea>
+              <button
+                class="button-type2 liquid"
+                type="submit"
+                id="submit-button"
+              >
+                <span>Submit</span>
+              </button>
+            </form>
+          </div>
         </div>
-         <div class="individual-link-container">
-            <a href="https://www.instagram.com/camoniasjohnkuer/" target="_blank" rel="noopener noreferrer"><img src="./img/instagram.svg" alt="instagram"> <h4>Instagram</h4></a>
-        </div>
-         <div class="individual-link-container">
-            <a href="https://www.tiktok.com/@riceecooked" target="_blank" rel="noopener noreferrer"><img src="./img/tiktok.svg" alt="tiktok"> <h4>TikTok</h4></a>
-        </div>
-    </div>
+      </div>
+    </section>
 
-<!-- Google Form -->
-    <div class="contact-form">
-        <form action="https://api.web3forms.com/submit" method="POST">
-        <input type="hidden" name="access_key" value="57bf4625-7a55-4a52-b7b4-799865a36fdd">
-        <input type="text" name="name" placeholder="Your Name" required>
-        <input type="email" name="email" placeholder="Your Email" required>
-        <textarea name="message" placeholder="Your Message" required></textarea>
-        <button class="button-type2 liquid" type="submit" id="submit-button"> <span>Submit</span></button>
-    </form>
-    </div>
-    </div>
-</div>
-</section>
-
-<script src="script.js"></script>
-
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
