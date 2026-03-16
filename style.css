@@ -944,6 +944,9 @@ form .button-type2 {
     font-size: 12px;
   }
   /*Contact Section*/
+  .contactme {
+    margin-bottom: clamp(10px,30vw, 250px);
+  }
   .contact-form {
     width: 45vw;
     height: 350px;
