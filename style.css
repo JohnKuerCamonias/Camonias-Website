@@ -4,7 +4,7 @@ html {
   scroll-behavior: smooth;
 }
 body{
-    background-color: black;
+    background-color: #080808;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;  
@@ -94,7 +94,7 @@ header{
     transition: all 0.3s ease;
 }
 .button-type1:hover {
-    box-shadow: 0 0 34px rgba(197, 29, 52, 0.9);
+    box-shadow: 0 0 28px rgba(197, 29, 52, 0.9);
 }
 
 .button-type2 {
@@ -674,20 +674,17 @@ input, textarea {
     margin-top: 10px;
     display: flex;
     flex-direction: column;
-    background-color: rgba(46, 46, 48, 0.25);
-    border: solid rgba(128,128,128, 0.25);
     border-radius: 30px;
     height: 50px;
+    background-color: rgba(46, 46, 48, 0.25);
+    border: 2px solid rgba(128,128,128, 0.25);
     color: #f5f5f5;
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-style: normal;
     color: #f5f5f5;
     padding-left: 10px;
-
-}
-input:focus{
-    outline: none;
+    transition: transform 0.3s ease, color 0.3 ease;
 }
 textarea {
     height: 130px;
@@ -1046,7 +1043,7 @@ h2{
     max-width: 330px;
     padding: 15px 30px;
     margin: 0 0 10px 5px;
-    border-radius: 30px;
+    border-radius: 5vw;
 }
 .ctabutton img {
     width: 3vw;
@@ -1064,6 +1061,7 @@ h2{
 /*About Page*/
 .about-container {
     width: 70vw;
+    border-radius: 4vw;
     max-width: 1800px;
 }
 .about-text-section {
@@ -1089,6 +1087,7 @@ h2{
 }
 .skill-icon-individual{
     width: 15vw;
+    border-radius: 2vw;
     max-width: 320px;
 }
 .skill-icon-individual img {
@@ -1107,7 +1106,7 @@ h2{
 .individual-projects {
     width: 30vw;
     max-width: 800px;
-    border-radius: 55px;
+    border-radius: 2.5vw;
 }
 .individual-projects img {
     width: 30vw;
@@ -1127,7 +1126,7 @@ font-size: clamp(25px, 2vw, 55px);
 }
 .tags h4{
     font-size: clamp(25px, 1.4vw, 55px); 
-    border-radius: 20px;
+    border-radius: 1vw;
     margin: 20px 0;
 }
 #view-button{
@@ -1136,11 +1135,14 @@ font-size: clamp(25px, 2vw, 55px);
     max-width: 280px;
     padding: 15px 30px;
     margin: 0 0 15px 15px;
-    border-radius: 30px;
+    border-radius: 5vw;
 }
 /*Contact Section*/
 .contactme{
     margin-bottom: 300px;
+}
+.contact-account{
+    gap: 1vw;
 }
 .contact-account h3{
     font-size: clamp(25px, 2vw, 55px); 
@@ -1154,14 +1156,14 @@ font-size: clamp(25px, 2vw, 55px);
 .individual-link-container a {
     width: 30vw;
     justify-content: left;
-    border-radius: 60px;
+    border-radius: 5vw;
 }
 .contact-form {
     width: 50vw;
     height: auto;
     max-width: 1600px;
     padding: 20px 30px;
-    border-radius: 60px;
+    border-radius: 5vw;
 }
 input{
     height: 5vw;
@@ -1174,6 +1176,7 @@ textarea{
 input, textarea {
     width: 45vw;
     max-width: 1600px;
+    border-radius: 2.5vw;
     font-size: clamp(18px, 1.5vw, 50px);
 }
 #submit-button{
@@ -1182,7 +1185,7 @@ input, textarea {
     max-width: 280px;
     padding: 10px 20px;
     margin: 0 0 10px 5px;
-    border-radius: 30px;
+    border-radius: 5vw;
 }
 }
 
